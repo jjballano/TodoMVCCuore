@@ -27,7 +27,7 @@ describe("Page", function() {
     });
 
     it("has a TASK service", function(){
-        expect(aPage.getService('TASK')).toBeInstanceOf(TODO.TaskService);
+        expect(aPage.getService('TASK')).toBeInstanceOf(TODO.Services.Task);
     });
 
 

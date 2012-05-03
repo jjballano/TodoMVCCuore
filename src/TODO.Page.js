@@ -1,5 +1,6 @@
 var TODO = TODO || {};
 TODO.Renderers = TODO.Renderers || {};
+TODO.Services = TODO.Services || {};
 
 TODO.Page = CUORE.Class(CUORE.Page, {
 
@@ -8,6 +9,6 @@ TODO.Page = CUORE.Class(CUORE.Page, {
 	},
 
 	initializeServices: function() {
-		this.addService(new TODO.TaskService());  
+		this.addService(new TODO.Services.Task());  
 	}
 });
