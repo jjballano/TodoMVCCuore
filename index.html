@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Cuore • TodoMVC</title>
+	<link rel="stylesheet" href="todomvc/assets/base.css">
+	<script src="lib/cuorejs/cuore-1.0-min.js"></script>
+	<script src="src/todo.js"></script>
+	<script src="src/TODO.Page.js"></script>
+	<script src="src/TODO.NewTaskInput.js"></script>
+	<script src="src/TODO.Renderers.Input.js"></script>
+	
+	<!--[if IE]>
+	<script src="todomvc/assets/ie.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section id="todoapp">
+		<header id="header">
+			<h1>Todos</h1>
+			<input id="new-todo" placeholder="What needs to be done?" autofocus>
+		</header>
+		<section id="main">
+			<input id="toggle-all" type="checkbox">
+			<label for="toggle-all">Mark all as complete</label>
+			<ul id="todo-list"></ul>
+		</section>
+		<footer id="footer">
+			<span id="todo-count"></span>
+			<button id="clear-completed">Clear completed</button>
+		</footer>
+	</section>
+	<footer id="info">
+		<p>With Cuore</p>
+		<p>Created by <a href="http://www.becodemyfriend.com/" target="_blank">BeCodeMyFriend</a></p>
+	</footer>
+	<script src="todomvc/assets/base.js"></script>
+</body>
+</html>
